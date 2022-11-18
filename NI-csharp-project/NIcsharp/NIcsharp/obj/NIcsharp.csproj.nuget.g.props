@@ -12,4 +12,16 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\jakab\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers\6.0.0\build\Microsoft.CodeAnalysis.NetAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers\6.0.0\build\Microsoft.CodeAnalysis.NetAnalyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.3\build\Microsoft.CodeAnalysis.Analyzers.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStyleCop_Analyzers_Unstable Condition=" '$(PkgStyleCop_Analyzers_Unstable)' == '' ">C:\Users\jakab\.nuget\packages\stylecop.analyzers.unstable\1.2.0.435</PkgStyleCop_Analyzers_Unstable>
+    <PkgRoslynator_Analyzers Condition=" '$(PkgRoslynator_Analyzers)' == '' ">C:\Users\jakab\.nuget\packages\roslynator.analyzers\4.1.1</PkgRoslynator_Analyzers>
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\jakab\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.2.32</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_NetAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_NetAnalyzers)' == '' ">C:\Users\jakab\.nuget\packages\microsoft.codeanalysis.netanalyzers\6.0.0</PkgMicrosoft_CodeAnalysis_NetAnalyzers>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\jakab\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgNI_CSharp_Analyzers Condition=" '$(PkgNI_CSharp_Analyzers)' == '' ">C:\Users\jakab\.nuget\packages\ni.csharp.analyzers\2.0.10</PkgNI_CSharp_Analyzers>
+  </PropertyGroup>
 </Project>

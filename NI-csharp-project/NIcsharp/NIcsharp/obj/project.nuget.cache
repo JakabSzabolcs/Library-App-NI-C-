@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "cjFk4a79yKgd5hSPk/bHSa4qO6/mo2oyHf0mzP3WNu6NiGIHkfG1mnQavYRE9dgMinBPiNoa7I6ZWiKxbc5Vrw==",
+  "dgSpecHash": "clC9WujcGAIBQ1JhsOzoiKPyvIdKj2B5QungMDqWMqyQEKvu6iehtQ1JfuvdwRYPjcFHMGf/6Zj+FTu//JtQTw==",
   "success": true,
   "projectFilePath": "C:\\Egyetem\\NI C#\\Project\\NI-csharp-project\\NIcsharp\\NIcsharp\\NIcsharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jakab\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\microsoft.codeanalysis.common\\4.2.0\\microsoft.codeanalysis.common.4.2.0.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.2.0\\microsoft.codeanalysis.csharp.4.2.0.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\6.0.0\\microsoft.codeanalysis.netanalyzers.6.0.0.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\microsoft.visualstudio.threading.analyzers\\17.2.32\\microsoft.visualstudio.threading.analyzers.17.2.32.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\ni.csharp.analyzers\\2.0.10\\ni.csharp.analyzers.2.0.10.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\roslynator.analyzers\\4.1.1\\roslynator.analyzers.4.1.1.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\jakab\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }
