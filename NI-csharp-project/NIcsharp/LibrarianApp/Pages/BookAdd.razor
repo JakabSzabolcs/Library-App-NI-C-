@@ -1,0 +1,19 @@
+﻿@page "/add"
+@using WebApi_Common.Models
+
+<EditForm Model="@Book" OnValidSubmit="@SubmitForm">
+    <DataAnnotationsValidator/>
+    <div class="form-group row">
+        <label for="Title" class="col-sm-3">Title:</label>
+        <InputText id="title" class="form-control col-sm-8" @bind-Value="@Book.Title" placeholder="Enter title"></InputText>
+        <ValidationMessage For="() => Book.Title"/>
+    </div>
+
+    <div class="form-group row">
+        <label for="author" class="col-sm-3">Author:</label>
+        <InputText id="author" class="form-control col-sm-8" @bind-Value="@Book.Author" placeholder="Enter author"></InputText>
+        <ValidationMessage For="() => Book.Author"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</EditForm>

@@ -15,11 +15,11 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NIcsharp
 build_property.RootNamespace = NIcsharp
-build_property.ProjectDir = C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\NIcsharp\
+build_property.ProjectDir = C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\NIcsharp
+build_property.MSBuildProjectDirectory = C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/jakab/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.2.32/build/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt]
@@ -46,46 +46,38 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/App.razor]
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/Pages/BookAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0FkZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/Pages/BookBorrow.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0JvcnJvdy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/Pages/BookDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0RldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Shared/SurveyPrompt.razor]
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/Pages/BookList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/_Imports.razor]
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Shared/MainLayout.razor]
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dmu244n3dp
 
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Shared/NavMenu.razor]
+[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/LibrarianApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-p7t0ok1efn
-
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Egyetem/NI C\#/Project/NI-csharp-project/NIcsharp/NIcsharp/Pages/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 

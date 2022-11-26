@@ -1,0 +1,35 @@
+﻿@page "/books/{BookID}/borrow"
+
+@if (Book == null)
+{
+    <LoadingAnimation />
+}
+else
+{
+    <EditForm Model="@Book" OnValidSubmit="@SubmitForm">
+        <DataAnnotationsValidator/>
+        <div class="form-group row">
+            <label for="Title" class="col-sm-3">Title:</label>
+            <InputText id="title" class="form-control col-sm-8" @bind-Value="@Book.Title" readonly></InputText>
+        </div>
+
+        <div class="form-group row">
+            <label for="author" class="col-sm-3">Author:</label>
+            <InputText id="author" class="form-control col-sm-8" @bind-Value="@Book.Author" readonly></InputText>
+        </div>
+
+        <div class="form-group row">
+            <label for="nameOfBorrower" class="col-sm-3">Borrower:</label>
+            <InputText id="nameOfBorrower" class="form-control col-sm-8" @bind-Value="@Book.NameOfBorrower" placeholder="Enter name of borrower"></InputText>
+            <ValidationMessage For="() => Book.NameOfBorrower"/>
+        </div>
+
+        <div class="form-group row">
+            <label for="dateOfReturn" class="col-sm-3">Date of return:</label>
+            <InputDate id="dateOfReturn" class="form-control col-sm-8" @bind-Value="@Book.DateOfReturn"></InputDate>
+            <ValidationMessage For="() => Book.DateOfReturn"/>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Borrow</button>
+    </EditForm>
+}
