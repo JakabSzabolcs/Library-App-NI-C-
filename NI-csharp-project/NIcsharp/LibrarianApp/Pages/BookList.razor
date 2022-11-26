@@ -1,0 +1,60 @@
+﻿@page "/"
+@page "/books"
+
+<h1>Books</h1>
+<br />
+@if (Books == null)
+{
+    <LoadingAnimation />
+}
+else
+{
+    <div class="form-group row">
+        <label for="name" class="col-sm-3">Search a book: </label>
+        <input id="name" class="form-control col-sm-8" @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search book by title or author"></input>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Rental Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in FilteredBooks)
+           {
+               <tr>
+                   <td>@book.Title</td>
+                   <td>@book.Author</td>
+                   @if (book.IsBorrowed)
+                    {
+                        <td>Borrowed</td>
+                    }
+                    else
+                    {
+                        <td>Available</td>
+                    }
+                   <td>
+                       <a href="@($"books/{book.Id}")" class="btn btn-info table-btn">Info</a>
+                   </td>
+                   @if (!book.IsBorrowed)
+                    {
+                        <td>
+                            <a href="@($"books/{book.Id}/borrow")" class="btn btn-primary table-btn">Borrow</a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <button type="submit" class="btn btn-success table-btn" @onclick="@(e => UpdateRentalStatus(book.Id, book))">
+                                Return
+                            </button>
+                        </td>
+                    }
+                </tr>
+           }
+        </tbody>
+    </table>
+}

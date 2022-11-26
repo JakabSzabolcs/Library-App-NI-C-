@@ -30,3 +30,12 @@ C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\NIcsharp\obj\Debug\net6.0\re
 C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\NIcsharp\obj\Debug\net6.0\NIcsharp.pdb
 C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\NIcsharp\obj\Debug\net6.0\NIcsharp.genruntimeconfig.cache
 C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\NIcsharp\obj\Debug\net6.0\ref\NIcsharp.dll
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.csproj.AssemblyReference.cache
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.AssemblyInfoInputs.cache
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.AssemblyInfo.cs
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.csproj.CoreCompileInputs.cache
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.MvcApplicationPartsAssemblyInfo.cache
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.dll
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\refint\NIcsharp.dll
+C:\Egyetem\NI C#\Project\NI-csharp-project\NIcsharp\LibrarianApp\obj\Debug\net6.0\NIcsharp.pdb
