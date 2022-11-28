@@ -4,7 +4,7 @@ using System.Net.Http.Json;
 using System.Threading.Tasks;
 using WebApi_Common.Models;
 
-namespace LibrarianApp.Pages
+namespace LibrarianApp.Data
 {
     public partial class BookDetails : ComponentBase
     {
