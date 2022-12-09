@@ -2,3 +2,4 @@
 2022. ősz NI C# projekt
 
 Üdv
+Teszt
