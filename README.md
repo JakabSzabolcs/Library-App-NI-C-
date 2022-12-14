@@ -1,5 +1,5 @@
 # Library-App-NI-C#
 2022. ősz NI C# projekt
 
-Üdv
-Teszt
+### C# Projekt Blazer használatával
+NI & De IK
