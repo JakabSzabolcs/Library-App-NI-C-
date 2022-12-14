@@ -1,0 +1,41 @@
+@page "/librarycard"
+
+<h3>My Own Personal Library Card</h3>
+<br />
+<div class="form-group row">
+    <label for="name" class="col-sm-3">Your name: </label>
+    <input id="name" class="form-control col-sm-8" @bind-value="@SearchName" @bind-value:event="oninput" placeholder="Enter your name"></input>
+</div>
+
+<table class=table>
+    <thead>
+        <tr>
+            <th>Author</th>
+            <th>Title</th>
+            <th>Date of Return</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Books != null)
+        {
+            @foreach (var book in FilteredBooks)
+            {
+                if (DateTime.Compare(book.DateOfReturn, DateTime.Now) <= 0)
+                {
+                    <tr bgcolor=#fc4242>
+                        <td>@book.Author</td>
+                        <td>@book.Title</td>
+                        <td>@book.DateOfReturn.Date.ToShortDateString()</td>
+                    </tr>
+                } else
+                {
+                    <tr>
+                        <td>@book.Author</td>
+                        <td>@book.Title</td>
+                        <td>@book.DateOfReturn.Date.ToShortDateString()</td>
+                    </tr>
+                }
+            }
+        }
+    </tbody>
+</table>
