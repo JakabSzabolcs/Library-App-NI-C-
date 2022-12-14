@@ -1,11 +1,11 @@
 ﻿@page "/"
 @page "/books"
 
-<h3>Available books in our library</h3>
+<h3>Available Books in our Library</h3>
 
 <div class="form-group row">
         <label for="name" class="col-sm-3">Search a book: </label>
-        <input id="name" class="form-control col-sm-8" @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search book by title or author"></input>
+        <input id="name" class="form-control col-sm-8" @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search book by title or Author"></input>
 </div>
 
 @if (Books == null)
