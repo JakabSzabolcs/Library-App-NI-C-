@@ -1,0 +1,12 @@
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\bin\Debug\net6.0\WebApi_Common.deps.json
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\bin\Debug\net6.0\WebApi_Common.dll
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\bin\Debug\net6.0\WebApi_Common.pdb
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\WebApi_Common.csproj.AssemblyReference.cache
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\WebApi_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\WebApi_Common.AssemblyInfoInputs.cache
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\WebApi_Common.AssemblyInfo.cs
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\WebApi_Common.csproj.CoreCompileInputs.cache
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\WebApi_Common.dll
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\refint\WebApi_Common.dll
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\WebApi_Common.pdb
+C:\Users\gedik\OneDrive\Documents\C#PROJ\Library-App-NI-C-\NI-csharp-project\NIcsharp\WebApi_Common\obj\Debug\net6.0\ref\WebApi_Common.dll
