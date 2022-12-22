@@ -42,7 +42,7 @@ namespace WebApi_Common.Tests
             ValidationResult validationResult = attribute.GetValidationResult(name, validationContext);
 
             // Assert
-            Assert.AreEqual(validationResult.ErrorMessage, "The name cannot contain any special character!");
+            Assert.AreEqual(validationResult.ErrorMessage, "The name cannot contain any special character(s)!");
         }
     }
 }
