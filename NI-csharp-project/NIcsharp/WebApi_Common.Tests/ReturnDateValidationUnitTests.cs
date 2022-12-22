@@ -22,7 +22,7 @@ namespace WebApi_Common.Tests
             // Assert
             Assert.AreEqual(validationResult, ValidationResult.Success);
         }
-        
+
         [TestMethod]
         public void IsValid_WithInvalidDate_ReturnsError()
         {
@@ -35,7 +35,7 @@ namespace WebApi_Common.Tests
             ValidationResult validationResult = attribute.GetValidationResult(date, validationContext);
 
             // Assert
-            Assert.AreEqual(validationResult.ErrorMessage, "The return date cannot be less then the borrowing date");
+            Assert.AreEqual(validationResult.ErrorMessage, "The return date cannot be sooner than the borrowing date!");
         }
     }
 }
